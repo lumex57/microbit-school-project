@@ -1,9 +1,7 @@
 let geori: number
-
+// sonar.ping(DigitalPin.P2, DigitalPin.P2, PingUnit.MicroSeconds)
 basic.forever(function () {
-    // if (geori)
     console.log(geori)
-    // sonar.ping(DigitalPin.P2, DigitalPin.P2, PingUnit.MicroSeconds)
 })
 basic.forever(function () {
     if (pins.analogReadPin(AnalogReadWritePin.P1) < 10) {
