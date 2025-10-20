@@ -2,7 +2,7 @@ huskylens.initI2c()
 huskylens.initMode(protocolAlgorithm.ALGORITHM_OBJECT_TRACKING)
 basic.forever(function () {
     if (pins.analogReadPin(AnalogReadWritePin.P1) < 10) {
-        music.play(music.stringPlayable("C5 - - - - - - - ", 120), music.PlaybackMode.UntilDone)
+        music.play(music.stringPlayable("C5 - C5 - C5 - C5 - ", 300), music.PlaybackMode.UntilDone)
     }
 })
 basic.forever(function () {
